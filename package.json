@@ -1,0 +1,20 @@
+{
+  "name": "bankocr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.6",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.3",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}

@@ -1,0 +1,159 @@
+{
+    "rules": {
+        "array-type": [
+            true,
+            "array"
+        ],
+        "arrow-parens": false,
+        "deprecation": {
+            "severity": "warning"
+        },
+        "contextual-lifecycle": true,
+        "component-class-suffix": [
+            true,
+            "Component"
+        ],
+        "directive-class-suffix": [
+            true,
+            "Directive"
+        ],
+        "directive-selector": [
+            true,
+            "attribute",
+            "ll",
+            "camelCase"
+        ],
+        "component-selector": [
+            true,
+            "element",
+            "ll",
+            "kebab-case"
+        ],
+        "import-blacklist": [
+            true,
+            "rxjs/Rx"
+        ],
+        "interface-name": [
+            true,
+            "always-prefix"
+        ],
+        "max-classes-per-file": [
+            true,
+            1
+        ],
+        "max-line-length": [
+            true,
+            {
+                "limit": 150,
+                "ignore-pattern": "^import |^export {(.*?)}"
+            }
+        ],
+        "member-access": [true, "no-public"],
+        "member-ordering": [
+            true,
+            {
+                "order": "fields-first"
+            }
+        ],
+        "no-consecutive-blank-lines": true,
+        "no-console": [
+            true,
+            "debug",
+            "info",
+            "time",
+            "timeEnd",
+            "trace"
+        ],
+        "no-empty": false,
+        // this enforces explicit declaration of any type
+        "no-inferrable-types": false,
+        "no-non-null-assertion": true,
+        "no-redundant-jsdoc": true,
+        "no-switch-case-fall-through": true,
+        "no-var-requires": false,
+        "object-literal-key-quotes": [
+            true,
+            "as-needed"
+        ],
+        "object-literal-sort-keys": false,
+        "ordered-imports": false,
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "trailing-comma": false,
+        "no-conflicting-lifecycle": true,
+        "no-host-metadata-property": true,
+        "no-input-rename": true,
+        "no-inputs-metadata-property": true,
+        "no-output-native": true,
+        "no-output-on-prefix": false,
+        "no-output-rename": true,
+        "no-outputs-metadata-property": true,
+        "template-banana-in-box": true,
+        "template-no-negated-async": true,
+        "use-lifecycle-interface": true,
+        "use-pipe-transform-interface": true,
+        // additional
+        "angular-whitespace": [
+            true,
+            "check-pipe"
+        ],
+        "no-unused-variable": [
+            true
+        ],
+        "indent": [
+            true,
+            "spaces",
+            2
+        ],
+        "only-arrow-functions": true,
+        "no-eval": true,
+        "no-var-keyword": true,
+        "arrow-return-shorthand": true,
+        "completed-docs": false, // if true, it enforce each
+        "class-name": true,
+        "no-trailing-whitespace": true,
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-snake-case"
+        ],
+        "whitespace": [
+            true,
+            "check-decl",
+            "check-type",
+            "check-preblock",
+            "check-operator"
+        ],
+        "typedef": [
+            true,
+            "call-signature",
+            "parameter",
+            "variable-declaration",
+            "member-variable-declaration"
+        ],
+        "prefer-const": true,
+        "no-attribute-decorator": true,
+        "no-forward-ref": true,
+        "eofline": true,
+        "component-max-inline-declarations": true,
+        "no-lifecycle-call": true,
+        "prefer-output-readonly": true,
+        "use-component-selector": true,
+        "no-queries-metadata-property": true,
+        "prefer-inline-decorator": [
+            true,
+            {
+                "methods": false,
+                "getters": false,
+                "setters": false
+            }
+        ]
+    }
+}
